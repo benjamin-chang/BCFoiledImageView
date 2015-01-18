@@ -5,7 +5,7 @@ A shinny UIImageView and CALayer
 Create either a `BCFoiledImageView` or `BCFoiledLayer` and set its `foiled` property to `YES`.
 
 ```objective-c
-BCFoiledImageView *imageView = [[BCFoiledImageView alloc] initWithFrame: self.view.bounds];
+BCFoiledImageView *imageView = [[BCFoiledImageView alloc] initWithFrame:self.view.bounds];
 
 //set your image
 //imageView.image = [UIImage imageNamed:@"foo"];
