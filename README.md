@@ -1,4 +1,4 @@
-# BCFoiled
+# Foiled
 A shinny UIImageView and CALayer
 
 ## UIImageView Usage
