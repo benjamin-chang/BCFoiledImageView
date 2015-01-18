@@ -16,3 +16,9 @@ imageView.foiled = YES; //make it shinny!
 
 [self.view addSubview:imageView];
 ```
+
+## Install
+You can install in one of two ways:
+
+1. Copy the source files into your project.
+2. Wait for me to write a podspec and install with [Cocoapods](http://cocoapods.org).
