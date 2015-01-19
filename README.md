@@ -8,7 +8,7 @@ You can install in one of two ways:
 2. Wait for me to write a podspec and install with [Cocoapods](http://cocoapods.org).
 
 ## Usage
-Create either a `BCFoiledImageView` or `BCFoiledLayer` and set its `foiled` property to `YES`.
+Create either a `BCFoiledImageView` and set its `foiled` property to `YES`.
 
 ```objective-c
 BCFoiledImageView *imageView = [[BCFoiledImageView alloc] initWithFrame:self.view.bounds];
@@ -21,4 +21,12 @@ imageView.clipsToBounds = YES;
 imageView.foiled = YES; //make it shinny!
 
 [self.view addSubview:imageView];
+```
+
+Create a `BCFoiledLayer` and add it to a `CALayer`.
+```objective-c
+BCFoiledLayer *foiledLayer = [MEFoiledLayer layer];
+foiledLayer.frame = self.bounds;
+[self.layer addSublayer:foiledLayer];
+
 ```
